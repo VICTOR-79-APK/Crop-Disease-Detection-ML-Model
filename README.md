@@ -10,7 +10,7 @@ A crop disease detection model based on ML and Deep Learning Algorithms. It scan
 
 📖 Project Overview
 
-The Crop Disease Detection System is a deep learning–based solution designed to help farmers and researchers identify crop diseases through image classification.
+The Crop Disease Detection Model is a deep learning–based solution designed to help farmers and researchers identify crop diseases through image classification.
 Using convolutional neural networks (CNNs) and transfer learning (MobileNetV2 / ResNet50), this system classifies plant leaf images into healthy or diseased categories with high accuracy.
 
 The project includes:
