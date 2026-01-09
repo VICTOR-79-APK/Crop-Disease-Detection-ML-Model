@@ -68,13 +68,6 @@ Tomato	MobileNetV2	.h5 / .tflite
 Chili	MobileNetV2	.h5 / .tflite
 Sugarcane	MobileNetV2	.h5 / .tflite
 Pea	MobileNetV2	.h5 / .tflite
-
-Additional:
-
-leaf_nonleaf_classifier.h5 → Leaf vs Non-Leaf validation
-
-crop_type_classifier.h5 → Crop identification (optional)
-
 ---
 
 🧾 Dataset Structure
@@ -104,7 +97,7 @@ CropsDiseaseProject/
 
 1. Clone the repository:
 
-git clone https://github.com/<your-username>/Crop-Disease-Detection.git
+git clone https://github.com/VICTOR-79-APK/Crop-Disease-Detection.git
 cd Crop-Disease-Detection
 
 2. Create a virtual environment and install dependencies:
@@ -157,7 +150,7 @@ Input Image	Model Output
 
 Crop	Accuracy	F1 Score
 
-Wheat	97.3%	0.96
+Wheat	97.3% 0.96
 Rice	96.8%	0.95
 Maize	98.1%	0.97
 Tomato	97.9%	0.96
@@ -167,7 +160,7 @@ Average	97.5%	0.96
 
 ☁ Deployment
 
-You can deploy the FastAPI server on:
+FastAPI server on:
 
 Render
 
@@ -175,7 +168,7 @@ Railway
 
 AWS EC2 / Azure VM
 
-Then connect your mobile app using the public API URL.
+Then connect with mobile app using the public API URL.
 
 ---
 
