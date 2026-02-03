@@ -8,12 +8,6 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image as keras_image
 from google.cloud import vision
 
-
-#  GOOGLE VISION API SETUP
-
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\PYTHON\CropsDiseaseProject\google_key\cropdiseaseproject-ba9d8d750f35.json"
-
-
 #  Initialize FastAPI App
 
 app = FastAPI(title="Crop Disease Prediction API")
