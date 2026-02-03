@@ -10,8 +10,7 @@ from google.cloud import vision
 
 
 #  GOOGLE VISION API SETUP
-
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\PYTHON\CropsDiseaseProject\google_key\cropdiseaseproject-ba9d8d750f35.json"
+// add vision API 
 
 
 #  Initialize FastAPI App
